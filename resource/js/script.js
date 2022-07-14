@@ -61,7 +61,10 @@ function getCookie(cname) {
 async function render() {
     var viewedList = getCookie('gdwar_events').split(',');
     var element = "";
-    var events = await fetch(`${window.location.href}/resource/events.json`).then(res => res.json());
+    var pathname = window.location.pathname.split('/').filter(e => e);
+    pathname.pop();
+    var subPath = pathname.toString().replace(',', '/');
+    var events = await fetch(`${window.location.origin}/${subPath}/resource/events.json`).then(res => res.json());
     events.forEach(event => {
         switch (event.type.toLowerCase()) {
             case 'announcement':
