@@ -92,9 +92,9 @@ function renderAnnouncement(event, viewedList) {
         element += `<p class="whiteText ellipsis-1 font5vw">${event.title}</p></div>`;
         element += '<div id="content" class="content" style="display: none;"><p class="whiteText font5vw">';
         element += `${event.content}`;
-        element += '</p></div>'
+        element += '</p></div>';
     }
-    element += '</div></div>';
+    element += '</div><img src="resource/images/static/divider.png"></div>';
     return element;
 }
 
@@ -117,7 +117,7 @@ function renderTutorial(event, viewedList) {
         });
         element += '</div>';
     }
-    element += '</div></div>';
+    element += '</div><img src="resource/images/static/divider.png"></div>';
     return element;
 }
 
