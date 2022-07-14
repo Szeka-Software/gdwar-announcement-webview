@@ -9,6 +9,9 @@
             padding: 0;
         }
 
+        html {
+            background-color:black;
+        }
         img {
             max-width: 100%;
             max-height: 100%;
@@ -23,7 +26,7 @@
         }
 
         .background {
-            background-color: black;
+            /* background-color: black; */
             padding-top: 1%;
         }
 
@@ -60,15 +63,17 @@
 
         .board {
             margin: 2.5%;
-            background-color: black;
+            /* background-color: black; */
             border-radius: 3px;
             /* box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2); */
             /* transition: 0.3s; */
         }
 
         .detail {
-            padding: 10px 16px;
-            background-color: black;
+            padding-top: 2vw;
+            padding-left:1vw;
+            padding-right:1vw;
+            /* background-color: black; */
             z-index: 0;
             border-radius: 5px;
         }
