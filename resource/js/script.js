@@ -61,7 +61,7 @@ function getCookie(cname) {
 async function render() {
     var viewedList = getCookie('gdwar_events').split(',');
     var element = "";
-    var events = await fetch('http://0.0.0.0:8888/announcement/resource/events.json').then(res => res.json());
+    var events = await fetch(`${window.location.origin}/announcement/resource/events.json`).then(res => res.json());
     events.forEach(event => {
         switch (event.type.toLowerCase()) {
             case 'announcement':
@@ -87,7 +87,7 @@ function renderAnnouncement(event, viewedList) {
     if (event.title != '' || event.title != null || event.content != '' || event.content != null) {
         element += '<img id="closeBtn" class="banner-btn" src="resource/images/static/close.png" style="display: none;"><img id="openBtn" class="banner-btn" src="resource/images/static/open.png"></div><div class="detail"><div id="title" class="title" style="display: block;">';
         element += `<p class="whiteText ellipsis-1 font5vw">${event.title}</p></div>`;
-        element += '<div id="content" class="content" style="display: none;"><p class="whiteText font1vw">';
+        element += '<div id="content" class="content" style="display: none;"><p class="whiteText font5vw">';
         element += `${event.content}`;
         element += '</p></div>'
     }
