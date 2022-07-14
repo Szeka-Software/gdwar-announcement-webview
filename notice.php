@@ -10,8 +10,9 @@
         }
 
         html {
-            background-color:black;
+            background-color:#151a2e;
         }
+        
         img {
             max-width: 100%;
             max-height: 100%;
