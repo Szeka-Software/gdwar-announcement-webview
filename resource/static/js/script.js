@@ -59,19 +59,20 @@ function getCookie(cname) {
 }
 
 async function render() {
+    var platform = document.getElementsByName('platform')[0].content;
     var viewedList = getCookie('gdwar_events').split(',');
     var element = "";
     var pathname = window.location.pathname.split('/').filter(e => e);
     pathname.pop();
     var subPath = pathname.toString().replace(',', '/');
-    var events = await fetch(`${window.location.origin}/${subPath}/resource/events.json`).then(res => res.json());
+    var events = await fetch(`${window.location.origin}/announcement/resource/${platform}/event/events.json`).then(res => res.json());
     events.forEach(event => {
         switch (event.type.toLowerCase()) {
             case 'announcement':
-                element += renderAnnouncement(event, viewedList);
+                element += renderAnnouncement(platform, event, viewedList);
                 break;
             case 'tutorial':
-                element += renderTutorial(event, viewedList);
+                element += renderTutorial(platform, event, viewedList);
                 break;
             default:
                 break;
@@ -80,51 +81,50 @@ async function render() {
     document.getElementById('events').innerHTML = element;
 }
 
-function renderAnnouncement(event, viewedList) {
+function renderAnnouncement(platform, event, viewedList) {
     var element = "";
     element += `<div class="board" id=${event.id} onclick="click_banner(this)"><div class="bannerArea">`;
-    element += `<img id="banner" class="banner separator" src="resource/images/banner/${event.image}"></img>`;
+    element += `<img id="banner" class="banner separator" src="../resource/${platform}/banner/${event.image}"></img>`;
     if (!viewedList.includes(event.id.toString())) {
-        element += '<img id="new" class="banner-new" src="resource/images/static/new.png">';
+        element += '<img id="new" class="banner-new" src="../resource/static/images/new.png">';
     }
     if (event.title != '' || event.title != null || event.content != '' || event.content != null) {
-        element += '<img id="closeBtn" class="banner-btn" src="resource/images/static/close.png" style="display: none;"><img id="openBtn" class="banner-btn" src="resource/images/static/open.png"></div><div class="detail"><div id="title" class="title" style="display: block;">';
+        element += '<img id="closeBtn" class="banner-btn" src="../resource/static/images/close.png" style="display: none;"><img id="openBtn" class="banner-btn" src="../resource/static/images/open.png"></div><div class="detail"><div id="title" class="title" style="display: block;">';
         element += `<p class="whiteText ellipsis-1 font5vw">${event.title}</p></div>`;
         element += '<div id="content" class="content" style="display: none;"><p class="whiteText font5vw">';
         element += `${event.content}`;
         element += '</p></div>';
     }
-    element += '</div><img src="resource/images/static/divider.png"></div>';
+    element += '</div><img src="../resource/static/images/divider.png"></div>';
     return element;
 }
 
-function renderTutorial(event, viewedList) {
+function renderTutorial(platform, event, viewedList) {
     var element = "";
     element += `<div class="board" id=${event.id} onclick="click_banner(this)"><div class="bannerArea">`;
-    element += `<img id="banner" class="banner separator" src="resource/images/banner/${event.image}"></img>`;
+    element += `<img id="banner" class="banner separator" src="../resource/${platform}/banner/${event.image}"></img>`;
     if (!viewedList.includes(event.id.toString())) {
-        element += '<img id="new" class="banner-new" src="resource/images/static/new.png">';
+        element += '<img id="new" class="banner-new" src="../resource/static/images/new.png">';
     }
     if (event.title != '' || event.title != null || event.content != '' || event.content != null) {
-        element += '<img id="closeBtn" class="banner-btn" src="resource/images/static/close.png" style="display: none;"><img id="openBtn" class="banner-btn" src="resource/images/static/open.png"></div><div class="detail"><div id="title" class="title" style="display: block;">';
+        element += '<img id="closeBtn" class="banner-btn" src="../resource/static/images/close.png" style="display: none;"><img id="openBtn" class="banner-btn" src="../resource/static/images/open.png"></div><div class="detail"><div id="title" class="title" style="display: block;">';
         element += `<p class="whiteText ellipsis-1 font5vw">${event.title}</p></div>`;
         element += '<div id="content" class="content" style="display: none;">';
         event.content.forEach((img, index) => {
-            element += `<img class="center-img" src="resource/images/banner/${img}">`;
+            element += `<img class="center-img" src="../resource/${platform}/banner/${img}">`;
             if (index + 1 != event.content.length) {
-                element += '<img class="center-img arrow-size" src="resource/images/static/arrow_mid.png">';
+                element += '<img class="center-img arrow-size" src="../resource/static/images/arrow_mid.png">';
             }
         });
         element += '</div>';
     }
-    element += '</div><img src="resource/images/static/divider.png"></div>';
+    element += '</div><img src="../resource/static/images/divider.png"></div>';
     return element;
 }
 
 function init() {
     render();
-    console.log('hi')
-    console.log('init cookie', getCookie('gdwar_events'));
+    // console.log('init cookie', getCookie('gdwar_events'));
 }
 
 window.onload = init;
