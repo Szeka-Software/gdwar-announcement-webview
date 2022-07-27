@@ -1,30 +1,44 @@
 [
     {
-        "id": 1657704903,
-        "type": "announcement",
-        "image": "開服公告_banner.png",
-        "title": "【公告】慶祝《超機動少女》開放",
-        "content": "《超機動少女》正式開放<br> <br> 親愛的艦長大人：<br> <br> 立即登入搜索少女們，並解放她們的胸罩！！<br> 海量H福利資源等待艦長大人探索！<br> <br> 慶祝活動：<br> 登入後立即輸入兌換碼 VIP777 即可獲得十連抽！<br>"
+      "id": 1657704903,
+      "type": "announcement",
+      "image": "開服公告_banner.png",
+      "title": "【公告】慶祝《超機動少女》開放",
+      "content": "<span style='color: #ffffff;'>《超機動少女》正式開放<br><br>親愛的艦長大人：<br><br>立即登入<span style='color: #33cccc;'>搜索少女們</span>，並解放她們的胸罩！！<br>海量<span style='color: #00ccff;'><strong>H福利資源</span></strong>等待艦長大人探索！<br><br><strong>慶祝活動：<br>登入後立即輸入兌換碼</strong><span style='color: #ff9900;'>VIP777</span>即可獲得<span style='color: #ff6600;'>十連抽</span>！<br></span>"
     },
     {
-        "id": 1657704893,
-        "type": "announcement",
-        "image": "VIP_banner.png",
-        "title": "【活動】認證平台電郵帳號送VIP 1",
-        "content": "平台現正舉辦活動，向平台認證有效電郵後即可<span style='color: #ff0000;'><strong>免費</strong></span>獲得<strong><span style='color: #ff9900;'>HoneyP 60點</span></strong>。<br /><br />1.使用<strong>平台帳號</strong>登入<br />2.主城右上方按<strong>【充值】</strong><br />3.購買60鑽石<strong>【CNY 6】</strong><br />4.跳轉到平台儲值頁<br />5.【選擇資費】<strong><span style='color: #ff9900;'>HoneyP 60點(免費)</span></strong><br />6.【支付方式】<span style='color: #ff0000;'><strong>免費領取</strong></span><br />7.確認送出 <p></br><span style='color: #ffffff;'>* 回到遊戲內【充值】頁<span style='color: #ff0000;'>VIP數值有上升即成功</span>。</span><br /><span style='color: #ffffff;'>* 如領取後可用作購買HoneyP 60點禮包後立即升為 VIP1。</span><br /><span style='color: #ffffff;'>*【選擇資費】沒有顯示HoneyP 60點(免費)，即過去已領取過，可使用其他電郵再試試。</span></p>"
+      "id": 202207251216,
+     "type": "announcement",
+     "image": "通關十連抽大贈送_banner.png",
+     "title": "【福利】通關十連抽大贈送",
+     "content": "<span style='color: #ffffff;'>親愛的艦長大人：<br><br>提提你～主線出撃通關後可以到【<span style='color: #00ccff;'><strong>通關獎勵</span></strong>】領取<span style='color: #ff6600;'>激情代幣</span>進行<span style='color: #ff6600;'><strong>十連抽</span></strong>。通關次數愈多，獎勵愈豐富。<br><br><span style='color: #eb54de;'>*獎勵詳情可在出擊內【通關獎勵】中查看。</span><br></span>" 
     },
     {
-        "id": 1657704904,
-        "type": "tutorial",
-        "image": "兌換碼教學_banner.png",
-        "title": "【教學】兌換碼送你十連抽",
-        "content": [
-            "redeem_tutorial_1.png",
-            "redeem_tutorial_2.png",
-            "redeem_tutorial_3.png",
-            "redeem_tutorial_4.png",
-            "redeem_tutorial_5.png",
-            "redeem_tutorial_6.png"
-        ]
+      "id": 1657704893,
+      "type": "announcement",
+      "image": "VIP_banner.png",
+      "title": "【活動】認證平台電郵帳號送VIP 1",
+      "content": "<span style='color: #ffffff;'>親愛的艦長大人：<br><br>平台現正舉辦活動，向平台認證有效電郵後即可<span style='color: #ff0000;'>免費</span>獲得<span style='color: #ff6600;'>HoneyP 60點</span>。<br>1.使用平台帳號登入<br>2.主城右上方按【<span style='color: #00ccff;'>充值</span>】<br>3.購買60鑽石【<span style='color: #00ccff;'>CNY 6</span>】<br>4.跳轉到平台儲值頁<br>5.【選擇資費】<span style='color: #ff6600;'>HoneyP 60點(免費)</span>。<br>6.【支付方式】<span style='color: #ff0000;'>免費領取</span><br>7.確認送出<br><br>*回到遊戲內【充值】頁VIP點數有上升即成功。<br>*如領取後可用作購買HoneyP 60點禮包後<span style='color: #00ccff;'>立即升為 VIP1</span>。<br>*【選擇資費】沒有顯示HoneyP 60點(免費)，即過去已領取過，可使用其他電郵再試試。<br></span>"
+    },
+    {
+       "id": 202207251215,
+      "type": "announcement",
+      "image": "激情突破-走進少女禁區_banner.png",
+      "title": "【Ｈ福利資源】激情突破",
+      "content": "<span style='color: #ffffff;'>艦長大人可以透過<span style='color: #ff6600;'><strong>每日任務</strong></span>或<span style='color: #ff6600;'><strong>商店區</strong></span>中獲得【<span style='color: #00ccff;'><strong>迷之票卷</strong></span>】，點撃【<span style='color: #00ccff;'><strong>激情突破</strong></span>】解鎖不同少女的體位。<br> <br> <span style='color: #eb54de;'>*詳情可在主城內【激情突破】中使用。</span><br></span>"
+    },
+    {
+      "id": 1657704904,
+      "type": "tutorial",
+      "image": "兌換碼教學_banner.png",
+      "title": "【教學】兌換碼送你十連抽",
+      "content": [
+        "redeem_tutorial_1.png",
+        "redeem_tutorial_2.png",
+        "redeem_tutorial_3.png",
+        "redeem_tutorial_4.png",
+        "redeem_tutorial_5.png",
+        "redeem_tutorial_6.png"
+      ]
     }
-]
+  ]
