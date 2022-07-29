@@ -34,7 +34,6 @@
                             <span>Email：</span>
                             <br>
                             <span>cocoball286@gmail.com</span>
-
                         </p>
                     </div>
                 </div>
