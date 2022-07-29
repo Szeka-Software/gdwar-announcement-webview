@@ -21,7 +21,7 @@
                 </div>
                 <div class="detail">
                     <div id="content" class="content">
-                        <p class="whiteText font5vw">
+                        <p class="whiteText font3vw">
                             <span >親愛的艦長大人：<br><br>目前遊戲登入異常，玩家無法登入遊戲，遊戲製作團隊正全力搶修。如有任何申訴歡迎加入以下群組。</span>
                             <br><br>
                             <span id="account"></span>
