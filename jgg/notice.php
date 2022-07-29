@@ -30,7 +30,7 @@
                             <br>
                             <span>Telegram：</span>
                             <br>
-                            <span><a href="https://t.me/+geJHdvwKnFBiZGI9">https://t.me/+geJHdvwKnFBiZGI9</a></span>
+                            <span><a href="https://t.me/+geJHdvwKnFBiZGI9">https://t.me/+geJHdvwKnFBiZGI9</a></span><br>
                             <span>Email：</span>
                             <br>
                             <span>cocoball286@gmail.com</span>
