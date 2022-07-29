@@ -24,7 +24,7 @@
                         <p class="whiteText font5vw">
                             <span style="color: #ffffff;">親愛的艦長大人：<br><br>目前遊戲登入異常，玩家無法登入遊戲，遊戲製作團隊正全力搶修，如有最新消息將會盡快發佈，請密切留意遊戲內公告。</span>
                             <br><br>
-                            <span style="color: #ffffff;">感謝玩家支持超機戰少女，不便之處，敬請原諒。</span><br></span>
+                            <span style="color: #ffffff;">感謝玩家支持創戰少女，不便之處，敬請原諒。</span><br></span>
                         </p>
                     </div>
                 </div>
